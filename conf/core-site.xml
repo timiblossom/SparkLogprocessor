@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+  <property><name>fs.s3n.awsSecretAccessKey</name><value>secretkey1</value></property>
+  <property><name>fs.s3n.awsAccessKeyId</name><value>accesskey</value></property>
+
+  <property><name>fs.s3.awsSecretAccessKey</name><value>secretkey</value></property>
+  <property><name>fs.s3bfs.awsAccessKeyId</name><value>accesskey</value></property>
+
+  <property><name>fs.s3bfs.awsSecretAccessKey</name><value>secretkey</value></property>
+  <property><name>fs.s3.awsAccessKeyId</name><value>accesskey</value></property>
+</configuration>

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./run com.vnspot.spark.logprocessor.RawEventProcessor -m mesos://$IP:5050 -rpath ./resources -lpath s3n://datalogs3  -d 2013-12-01 -o 00
